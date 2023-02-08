@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         My portfolio </title>
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="devilicon.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     
 </head>
 
 <body>
 <header> 
 <nav> 
-<a href="#home">home</a>
-<a href="#about">about</a>
-<a href="#work">work</a>
-<a href="#resume">resume</a>
-<a href="#contact">contact</a>
+<a class="navelem" href="#home">home</a>
+<a class="navelem" href="#about">about</a>
+<a class="navelem" href="#work">work</a>
+<a class="navelem" href="#resume">resume</a>
+<a class="navelem" href="#contact">contact</a>
 </nav>
 <iframe muted autoplay width="560" height="315" src="https://www.youtube.com/embed/L_LUpnjgPso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </header>
@@ -25,18 +29,18 @@
 <main> 
 <section id="home">
     <h1>Welcome to my portfolio ! </h1>
-    <p><b>Here you will find all of the necessary informations about me 
-        my work , and how you can contact me. </b></p>
-        <p><b>Enjoy srufing through this website ^_^</b></p>
+    <p>Here you will find all of the necessary informations about me 
+        my work , and how you can contact me.</p>
+        <p>Enjoy srufing through this website ^_^</p>
 </section>
 
 
 <section id="about">
    <h3>About me</h3>
-   <p><b>Hello!My name is iheb ben ali , a 22 year old Gomycode student.<br>
+   <p>Hello!My name is iheb ben ali , a 22 year old Gomycode student.<br>
     im enrolled in the full stack javascript developer bootcamp. If you wanna<br>
     go through some of my past experiences , you may find : <br>
-</b>
+
 <dl>
    <dt> <ul>
         <li>2020-2021</li>
@@ -55,7 +59,8 @@
     <dd>Full stack Web Developer in Gomycode</dd>
 </dl>
 </p>
-<table border="1px solid black">
+<table>
+    <section  id="tab">
 <tr>
     <th>Language</th>
     <th>Level</th>
@@ -80,14 +85,14 @@
     <td>Spanish</td>
     <td>beginner</td>
 </tr>
-
+</section>
 </table> 
 </section>
 
 
 <section id="work">
     <h3>My work</h3>
-    <p><b>In this section , you can find any work ive done bu clicking on the link below : </b></p>
+    <p>In this section , you can find any work ive done bu clicking on the link below : </p>
 <a href="https://github.com/Ihebbenali1">github</a>
 </section>
 
@@ -107,13 +112,13 @@
         <h4>Please submit your infos down here : </h4>
 <form>
     <label>First Name : </label>
-    <input type="text"/>
+    <input id="fn" type="text"/>
     <br>
     <label>Last Name : </label>
-    <input type="text"/>
+    <input id ="ln" type="text"/>
     <br>
     <label>Mail : </label>
-    <input type="text"/>
+    <input id="ma" type="text"/>
 </form>
     </section>
     <audio controls autoplay>

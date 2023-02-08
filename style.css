@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: robotofont;
+    src: url(Roboto-Black.ttf);
+}
+*{
+    font-family: robotofont;
+    background-color: #e2d7a7;
+
+}
+nav {
+    margin-left: 1150px;
+font-size: 20px;
+padding-bottom: 70px;
+padding-top: 25px;
+margin-top: 22px;
+}
+p{
+    margin-left: 40px;
+}
+h1{
+    text-decoration: underline;
+    margin-left: 40px;
+}
+.navelem{
+    font-size: 20px;
+    color: chocolate;
+    padding-left: 5px;
+}
+.navelem:hover{
+    font-size: 23px;
+    color:red;
+}
+#about h3{
+    text-decoration: underline;
+    color: crimson;
+    margin-left: 2.5%;
+}
+form{
+    width: 20%;
+margin-left: 60px;
+}
+
+table{
+    margin-left: 45px;
+    
+    border-collapse: collapse;
+}
+
+table,th,td{
+    border: 3px solid brown;
+}
+
+#fn {
+    margin-left:35px;
+    margin-bottom:10px;
+}
+#ln{
+    margin-left:35px;
+    margin-bottom:10px;
+}
+#ma{
+    margin-left:81px;
+    margin-bottom:10px;
+}
+
+
+
